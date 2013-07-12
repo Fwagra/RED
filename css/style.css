@@ -239,7 +239,7 @@ header a,header a:hover,header a:visited{
 	text-decoration:none;
 }
 
-#main button, .loginBloc button,.button,.readUnreadButton{
+#main button, .loginBloc button,.button{
 	background-color:#e05b5b;
 	border:0px;
 	color:#ffffff;
@@ -258,12 +258,15 @@ header a,header a:hover,header a:visited{
 	-o-transition: 0.3s ease all;
 	transition: 0.3s ease all;
 }
-#main button:hover, .loginBloc button:hover,.button:hover,.readUnreadButton:hover{
+#main button:hover, .loginBloc button:hover,.button:hover{
 	background-color: #923b3b;
 
 }
-.readUnreadButton:hover{
- 	border-left: 1px solid #A92525 !important;
+
+.articleDetails  .readUnreadButton:hover{
+ 	background-color: #414B55;
+ 	background-image: url(../img/checked.png);
+
 
 }
 .articleDetails .readUnreadButton{
@@ -280,7 +283,14 @@ header a,header a:hover,header a:visited{
 	background-image: url(../img/unchecked.png);
  	background-repeat: no-repeat;
  	background-position: center;
- 	border-left: 1px solid #FF7B7B;
+ 	border-left: 1px solid #82909E;
+	background-color:#697785;
+		-webkit-transition: 0.3s ease all;
+	-moz-transition: 0.3s ease all;
+	-ms-transition: 0.3s ease all;
+	-o-transition: 0.3s ease all;
+	transition: 0.3s ease all;
+
 }
 
 #main aside a.unreadForFolder{
@@ -555,20 +565,18 @@ header a,header a:hover,header a:visited{
 	border-left:10px solid;
 }
 
-#main article section {
-	 
-}
+
 
 #main article section.eventRead .readUnreadButton {
 	/*opacity:0.8;
 	-moz-opacity : 0.8;
     -ms-filter: "alpha(opacity=80)";
  	*/
- 	background-color: #697785;
+ 	background-color: #e05b5b;
  	background-image: url(../img/checked.png);
  	background-repeat: no-repeat;
  	background-position: center;
- 	border-left: 1px solid #788694;
+ 	border-left: 1px solid #f36e6e;
 	
 }
 .favorite
@@ -631,9 +639,13 @@ header a,header a:hover,header a:visited{
 }
 #main article section.eventRead .readUnreadButton:hover
 {
-	border-left: 1px solid #5f6973 !important;
+	border-left: 1px solid #923B3B !important;
 }
-#main article section.eventRead .readUnreadButton:hover,
+#main article section.eventRead .readUnreadButton:hover
+{
+	background-color: #923B3B;
+	background-image: url(../img/unchecked.png);
+}
 .favorite:hover,
 .favtemp:hover {
 		background-color: #414B55;
