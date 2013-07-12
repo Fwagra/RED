@@ -1,0 +1,23 @@
+<!--
+ @nom: footer
+ @auteur: Idleman (idleman@idleman.fr)
+ @description: Page de bas de page commun a toutes les vues
+-->
+
+	</div> <!-- #main-container -->
+
+	<div id="footer-container">
+		<footer class="wrapper">
+			<p>Leed "Light Feed" fabuleux agrégateur exécuté en {$executionTime} secondes par <a target="_blank" href="http://blog.idleman.fr">Idleman</a> | <a href="about.php">À propos</a> | Thème <i>RED</i> par <a href='mailto:fabiocerqueiracw@gmail.com'>Fwagra</a>. </p>
+			{function="Plugin::callHook("footer_post_copyright", array(&$myUser))"}
+		</footer>
+	</div>
+</div>
+
+<script src="js/libs/jqueryAndModernizr.min.js"></script>
+<script src="js/script.js"></script>
+<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script type="text/javascript" src="js/jquery.faviconNotify.js"></script>
+{function="Plugin::callJs()"}
+</body>
+</html>
