@@ -692,7 +692,8 @@ header a,header a:hover,header a:visited{
 footer a,#main aside a{
 	color:#FFFFFF;
 	text-decoration:none;
-	font-size:12px;
+	font-size:0.8em;
+	font-weight: 600;
 }
 
 #main aside a span{
