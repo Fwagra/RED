@@ -694,6 +694,11 @@ footer a,#main aside a{
 	text-decoration:none;
 	font-size:12px;
 }
+#main .folder > a
+{
+	font-size:0.8em;
+	font-weight: 600;
+}
 
 #main aside a span{
 	font-weight:bold;
